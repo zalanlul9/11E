@@ -1,0 +1,77 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fdfaf5;
+  color: #13322b;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: lightblue;
+}
+
+/* Profil kártya */
+.profillap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  width: 400px;
+}
+
+.profillap img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.infok {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infok h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.infok p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+  color: #1e3b35;
+}
+#osztalykep{
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+img{
+  display: block;
+  margin: auto;
+}
+h1{
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #575757;
+  color: white;
+}
