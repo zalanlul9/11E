@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 td{
@@ -100,4 +101,38 @@ p{
   right: 1px;
   font-size: 7px;
   color: black;
+}
+
+.nyelv{
+    font-size: 7px;
+}
+
+.csoport{
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #575757;
+    color: white;
 }
