@@ -138,3 +138,37 @@ nav a:hover {
     background-color: #575757;
     color: white;
 }
+
+a{
+    color: rgb(0, 0, 153);
+    text-decoration: none;
+}
+
+p{
+    font-size: 18px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    flex: 1; /* a fő tartalom kitölti a teret */
+  }
+  footer {
+    padding: 5px 0 10px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    margin-top: auto; /* ez tolja le a footer-t */
+    display: block;
+  }
+td{
+    height: 80px;
+}

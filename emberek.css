@@ -6,45 +6,11 @@ body {
   margin: 0px;
   background-color: lightblue;
 }
-
-/* Profil kártya */
-.profillap {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  background-color: transparent;
-  margin-bottom: 40px;
-  width: 400px;
-}
-
-.profillap img {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-.infok {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.infok h2 {
-  margin: 0;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.infok p {
-  margin: 5px 0 0;
-  font-size: 1.2rem;
-  color: #1e3b35;
-}
 #osztalykep{
   display: block;
   margin: auto;
   margin-bottom: 50px;
+  margin-left: 40px;
 }
 img{
   display: block;
@@ -74,4 +40,38 @@ nav a {
 nav a:hover {
   background-color: #575757;
   color: white;
+}
+.profillap img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-left: 40px;
+}
+.profillap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  width: 350px;
+  margin-left: 20px;
+}
+
+.infok h2 {
+  margin-left: 15px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.infok p {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: #1e3b35;
+}
+.infok {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
